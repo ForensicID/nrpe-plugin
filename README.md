@@ -6,3 +6,12 @@ NRPE berfungsi sebagai jembatan antara server Nagios dan mesin klien yang ingin 
 cd /usr/local/nagios/libexec/
 wget https://raw.githubusercontent.com/ForensicID/nrpe-plugin/refs/heads/main/check_mem
 chmod +x check_mem
+```
+
+## CPU
+
+```bash
+cd /usr/local/nagios/libexec/
+wget https://raw.githubusercontent.com/ForensicID/nrpe-plugin/refs/heads/main/check_cpusage
+chmod +x check_cpusage
+```
