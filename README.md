@@ -12,8 +12,8 @@ chmod +x check_mem
 
 ```bash
 cd /usr/local/nagios/libexec/
-wget https://raw.githubusercontent.com/ForensicID/nrpe-plugin/refs/heads/main/check_cpusage
-chmod +x check_cpusage
+wget https://raw.githubusercontent.com/ForensicID/nrpe-plugin/refs/heads/main/check_cpusage.sh
+chmod +x check_cpusage.sh
 ```
 
 ## NETWORK
