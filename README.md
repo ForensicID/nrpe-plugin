@@ -1,2 +1,2 @@
 # nrpe-plugin
-### ADUH RITMI
+NRPE berfungsi sebagai jembatan antara server Nagios dan mesin klien yang ingin dipantau. Ketika Nagios mengirim permintaan untuk memeriksa status atau kinerja layanan di server klien, NRPE menerima permintaan tersebut, menjalankan plugin yang sesuai di mesin klien, dan mengembalikan hasilnya ke server Nagios.
