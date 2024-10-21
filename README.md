@@ -23,3 +23,11 @@ cd /usr/local/nagios/libexec/
 wget https://raw.githubusercontent.com/ForensicID/nrpe-plugin/refs/heads/main/check_bandwidth
 chmod +x check_bandwidth
 ```
+
+## DATABASE
+
+```bash
+cd /usr/local/nagios/libexec/
+wget https://raw.githubusercontent.com/ForensicID/nrpe-plugin/refs/heads/main/check_mysql_query.pl
+chmod +x check_mysql_query.pl
+```
